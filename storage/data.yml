@@ -1,0 +1,15 @@
+basket:
+    B55a0c72855e0e: { id: B55a0c72855e0e, name: basket2, itemsAmount: 8, totalPrice: !!float 160, basketItems: [{ id: B55a0c72855e0e/P55a0c7285619e, basket: B55a0c72855e0e, product: P55a0c7285619e, name: apple, price: 20, itemsAmount: 35, totalPrice: 700 }, { id: B55a0c72855e0e/P55a0c72856205, basket: B55a0c72855e0e, product: P55a0c72856205, name: P55a0c72856205, price: !!float 50, itemsAmount: 14, totalPrice: !!float 700 }, { id: B55a0c72855e0e/P55a0c72856261, basket: B55a0c72855e0e, product: P55a0c72856261, name: P55a0c72856261, price: !!float 200000, itemsAmount: 3, totalPrice: !!float 600000 }] }
+    B55a0c72855ea8: { id: B55a0c72855ea8, name: basket3, itemsAmount: 18, totalPrice: !!float 200550, basketItems: [{ id: B55a0c72855ea8/P55a0c72856205, basket: B55a0c72855ea8, product: P55a0c72856205, name: pineapple, price: !!float 50, itemsAmount: 7, totalPrice: !!float 350 }, { id: B55a0c72855ea8/P55a0c72856261, basket: B55a0c72855ea8, product: P55a0c72856261, name: car, price: !!float 200000, itemsAmount: 1, totalPrice: !!float 200000 }, { id: B55a0c72855ea8/P55a0c7285619e, basket: B55a0c72855ea8, product: P55a0c7285619e, name: apple, price: !!float 20, itemsAmount: 10, totalPrice: !!float 200 }] }
+    basket10: { id: basket10, name: basket1, itemsAmount: 4, totalPrice: !!float 110, total: 15, basketItems: [{ id: basket10/P55a0c72856205, basket: basket10, product: P55a0c72856205, name: pineapple, price: 50, itemsAmount: 1, totalPrice: 50 }, { id: basket10/P55a0c7285619e, basket: basket10, product: P55a0c7285619e, name: apple, price: !!float 20, itemsAmount: 6, totalPrice: !!float 120 }] }
+product:
+    P55a0c7285619e: { id: P55a0c7285619e, name: apple, price: 20 }
+    P55a0c72856205: { id: P55a0c72856205, name: pineapple, price: 50 }
+    P55a0c72856261: { id: P55a0c72856261, name: car, price: 200000 }
+basketItem:
+    B55a0c72855ea8/P55a0c72856205: { id: B55a0c72855ea8/P55a0c72856205, basket: B55a0c72855ea8, product: P55a0c72856205, name: pineapple, price: !!float 50, itemsAmount: 7, totalPrice: !!float 350 }
+    B55a0c72855ea8/P55a0c72856261: { id: B55a0c72855ea8/P55a0c72856261, basket: B55a0c72855ea8, product: P55a0c72856261, name: car, price: !!float 200000, itemsAmount: 1, totalPrice: !!float 200000 }
+    basket10/P55a0c72856205: { id: basket10/P55a0c72856205, basket: basket10, product: P55a0c72856205, name: pineapple, price: 50, itemsAmount: 1, totalPrice: 50 }
+    B55a0c72855ea8/P55a0c7285619e: { id: B55a0c72855ea8/P55a0c7285619e, basket: B55a0c72855ea8, product: P55a0c7285619e, name: apple, price: !!float 20, itemsAmount: 10, totalPrice: !!float 200 }
+    basket10/P55a0c7285619e: { id: basket10/P55a0c7285619e, basket: basket10, product: P55a0c7285619e, name: apple, price: !!float 20, itemsAmount: 3, totalPrice: !!float 60 }
+    B55a0c72855e0e/P55a0c7285619e: { id: B55a0c72855e0e/P55a0c7285619e, basket: B55a0c72855e0e, product: P55a0c7285619e, name: apple, price: !!float 20, itemsAmount: 8, totalPrice: !!float 160 }

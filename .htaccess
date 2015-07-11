@@ -1,0 +1,10 @@
+ExpiresActive On
+ExpiresByType application/javascript "now"
+
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule "^.*" /api.php
+
+php_flag display_errors Off
+php_flag html_errors On
